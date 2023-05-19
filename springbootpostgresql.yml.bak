@@ -10,7 +10,7 @@ spec:
      - containerPort: 8082
      env:
      - name : POSTGRESDBURL
-       value: jdbc:postgresql://10.244.0.61:5432/postgres
+       value: jdbc:postgresql://10.244.0.47:5432/postgres
      - name : POSTGRESUSER
        value: postgres
      - name : POSTGRESPASSWORD
