@@ -32,7 +32,7 @@ pipeline {
     stage('Deploying springboot container to Kubernetes') {
       steps {
         script {
-          kubernetesDeploy(configs: "E:\SoftwareSetup\Development\k8s\springbootpostgresql.yml", "E:\SoftwareSetup\Development\k8s\postgres.yml")
+          kubernetesDeploy(configs: "springbootpostgresql.yml", "postgres.yml")
         }
       }
     }
