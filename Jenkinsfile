@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u 0906 -p ${dockerhubpwd}'
 
 }
-                   sh 'docker push javatechie/devops-integration'
+                   sh 'docker push 0906/springbootpostgresql'
                 }
             }
         }
